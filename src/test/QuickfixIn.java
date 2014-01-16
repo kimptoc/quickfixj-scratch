@@ -4,27 +4,20 @@ import quickfix.*;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /**
  * Created by kimptoc on 15/01/2014.
  */
 public class QuickfixIn {
-    public static void main(String[] args) throws ConfigError, FileNotFoundException {
+    public static void main(String[] args) throws ConfigError, IOException {
         System.out.println("Starting Acceptor!");
 
         if(args.length != 1) return;
-        String fileName = args[0];
-
-        // FooApplication is your class that implements the Application interface
-        Application application = new FixHandler();
-
-        SessionSettings settings = new SessionSettings(new FileInputStream(fileName));
-//        MessageStoreFactory storeFactory = new FileStoreFactory(settings);
-        MessageStoreFactory storeFactory = new JdbcStoreFactory(settings);
-        LogFactory logFactory = new FileLogFactory(settings);
-        MessageFactory messageFactory = new DefaultMessageFactory();
+        QuickfixBase quickfixBase = new QuickfixBase().invoke(args[0]);
         Acceptor acceptor = new SocketAcceptor
-                (application, storeFactory, settings, logFactory, messageFactory);
+                (quickfixBase.getApplication(), quickfixBase.getStoreFactory(), quickfixBase.getSettings(),
+                        quickfixBase.getLogFactory(), quickfixBase.getMessageFactory());
         acceptor.start();
         // while( condition == true ) { do something; }
 //        acceptor.stop();
