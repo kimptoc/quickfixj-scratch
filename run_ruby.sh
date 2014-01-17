@@ -1,3 +1,4 @@
+#!/bin/sh
 
 JRUBY_OPTIONS="-J-cp out/production/aa-quickfixj:config"
 JRUBY_OPTIONS=${JRUBY_OPTIONS}:lib/quickfixj-all-1.5.3.jar

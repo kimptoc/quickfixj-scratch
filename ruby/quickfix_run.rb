@@ -9,6 +9,7 @@ acc = Java::quickfix.SocketAcceptor.new qf.application, qf.store_factory, qf.set
 
 acc.start
 
+
 puts "Starting Initiator: #{ARGV[1]}"
 
 qf = Java::qftest.QuickfixBase.new.invoke(ARGV[1])
