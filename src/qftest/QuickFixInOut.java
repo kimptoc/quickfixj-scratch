@@ -1,8 +1,7 @@
-package test;
+package qftest;
 
 import quickfix.ConfigError;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**

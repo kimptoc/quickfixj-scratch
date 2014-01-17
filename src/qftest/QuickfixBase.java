@@ -1,4 +1,4 @@
-package test;
+package qftest;
 
 import quickfix.*;
 
