@@ -57,7 +57,8 @@ public class QuickfixBase {
 //        settings.setVariableValues(props);
 //        MessageStoreFactory storeFactory = new FileStoreFactory(settings);
         storeFactory = new JdbcStoreFactory(settings);
-        logFactory = new FileLogFactory(settings);
+//        logFactory = new FileLogFactory(settings);
+        logFactory = new JdbcLogFactory(settings);
         messageFactory = new DefaultMessageFactory();
         return this;
     }
