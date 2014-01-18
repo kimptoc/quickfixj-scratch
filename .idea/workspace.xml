@@ -81,15 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QuickFixInOut.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/qftest/QuickFixInOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickfixBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixBase.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,10 +99,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickfixOut.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="QuickfixOut.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.31223628" vertical-offset="346" max-vertical-offset="765">
+            <state line="32" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.06329114" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -192,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/test/QuickfixInit.java" />
         <option value="$PROJECT_DIR$/src/test/QuickfixOut.java" />
         <option value="$PROJECT_DIR$/src/test/QuickfixIn.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/test/QuickfixBase.java" />
         <option value="$PROJECT_DIR$/.ruby-gemset" />
         <option value="$PROJECT_DIR$/.ruby-version" />
@@ -201,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/qftest/QuickfixBase.java" />
         <option value="$PROJECT_DIR$/fix.out.config" />
         <option value="$PROJECT_DIR$/src/qftest/QuickfixOut.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -543,7 +543,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5569231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5569231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -651,7 +651,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="240" />
+        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="240">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
@@ -763,11 +765,6 @@
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.05226481" vertical-offset="0" max-vertical-offset="574" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/SocketAcceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="11" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
@@ -869,7 +866,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.31223628" vertical-offset="346" max-vertical-offset="765">
+        <state line="32" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.06329114" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
