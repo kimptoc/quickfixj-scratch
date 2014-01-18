@@ -16,6 +16,8 @@ public class QuickfixBase {
     private MessageStoreFactory storeFactory;
     private LogFactory logFactory;
     private MessageFactory messageFactory;
+    private Properties props;
+    private SessionID sessionId;
 
     public Application getApplication() {
         return application;
@@ -37,24 +39,25 @@ public class QuickfixBase {
         return messageFactory;
     }
 
+    public Properties getProperties() { return props; }
+
+    public SessionID getSessionId() { return sessionId; }
+
     public QuickfixBase invoke(String fileName) throws IOException {
 
-        // FooApplication is your class that implements the Application interface
         application = new FixHandler();
 
-        Properties props = new Properties();
+        props = new Properties();
         props.load(new FileInputStream(fileName));
 //        SessionSettings settings = new SessionSettings(new FileInputStream(fileName));
         settings = new SessionSettings();
         String beginStr = props.getProperty("BeginString");
         String senderComp = props.getProperty("SenderCompID");
         String targetComp = props.getProperty("TargetCompID");
-        SessionID sessionId = new SessionID(beginStr, senderComp, targetComp);
+        sessionId = new SessionID(beginStr, senderComp, targetComp);
         for (Map.Entry<Object, Object> entry : props.entrySet()) {
             settings.setString(sessionId, entry.getKey().toString(), entry.getValue().toString());
         }
-//        settings.set(props);
-//        settings.setVariableValues(props);
 //        MessageStoreFactory storeFactory = new FileStoreFactory(settings);
         storeFactory = new JdbcStoreFactory(settings);
 //        logFactory = new FileLogFactory(settings);
