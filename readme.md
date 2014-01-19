@@ -8,14 +8,14 @@ Only using FIX 4.4
 TODO
 ----
 
-Sending message / Ruby
-
 Accepting message / Ruby
 
 Logging via third party (mkv - what does ION do?)
 
 DONE
 ----
+
+Sending message / Ruby
 
 Sending/Accepting message / Java
 

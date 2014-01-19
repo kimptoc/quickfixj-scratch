@@ -80,20 +80,43 @@
     <favorites_list name="aa-quickfixj" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="QuickfixOut.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="34" column="59" selection-start="1307" selection-end="1319" vertical-scroll-proportion="-0.06418919" vertical-offset="469" max-vertical-offset="765">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="quickfix_run.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="720">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="quickfix_run.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="0" selection-start="963" selection-end="963" vertical-scroll-proportion="0.5862069" vertical-offset="430" max-vertical-offset="720">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -118,12 +141,12 @@
         <option value="$PROJECT_DIR$/.ruby-gemset" />
         <option value="$PROJECT_DIR$/.ruby-version" />
         <option value="$PROJECT_DIR$/run_ruby.sh" />
-        <option value="$PROJECT_DIR$/ruby/quickfix_run.rb" />
         <option value="$PROJECT_DIR$/src/qftest/QuickfixBase.java" />
         <option value="$PROJECT_DIR$/fix.out.config" />
         <option value="$PROJECT_DIR$/src/qftest/QuickfixOut.java" />
         <option value="$PROJECT_DIR$/java/qftest/FixHandler.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/ruby/quickfix_run.rb" />
       </list>
     </option>
   </component>
@@ -173,6 +196,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,8 +513,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44615385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12160121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44615385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -726,11 +763,6 @@
         <state line="13" column="63" selection-start="649" selection-end="649" vertical-scroll-proportion="0.31350482" vertical-offset="0" max-vertical-offset="622" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.25041735" vertical-offset="0" max-vertical-offset="599" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.07512521" vertical-offset="0" max-vertical-offset="599">
@@ -811,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/qftest/FixHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="61" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.7554859" vertical-offset="569" max-vertical-offset="960">
@@ -831,6 +856,20 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="59" selection-start="1307" selection-end="1319" vertical-scroll-proportion="-0.06418919" vertical-offset="469" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
