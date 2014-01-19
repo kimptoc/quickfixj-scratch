@@ -1,11 +1,14 @@
 package qftest;
 
 import quickfix.*;
+import quickfix.Message;
+import quickfix.field.ClOrdID;
+import quickfix.fix44.*;
 
 /**
  * Created by kimptoc on 15/01/2014.
  */
-public class FixHandler implements Application {
+public class FixHandler extends quickfix.fix44.MessageCracker implements Application {
 
     @Override
     public void onCreate(SessionID sessionID) {
@@ -44,5 +47,15 @@ public class FixHandler implements Application {
     public void fromApp(Message message, SessionID sessionID) throws FieldNotFound, IncorrectDataFormat, IncorrectTagValue, UnsupportedMessageType {
         Log.debug("fromApp:"+sessionID);
         Log.debug(message);
+        crack(message, sessionID);
+    }
+
+    public void onMessage( quickfix.fix44.NewOrderSingle message, SessionID sessionID )
+            throws FieldNotFound, UnsupportedMessageType, IncorrectTagValue {
+
+        ClOrdID clOrdID = new ClOrdID();
+        Log.debug("retval="+message.get(clOrdID)+", param="+clOrdID+", val="+clOrdID.getValue());
+        Log.debug("msg meth="+message.getClOrdID().getValue());
+
     }
 }
