@@ -80,43 +80,62 @@
     <favorites_list name="aa-quickfixj" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="QuickfixOut.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="59" selection-start="1307" selection-end="1319" vertical-scroll-proportion="-0.06418919" vertical-offset="469" max-vertical-offset="765">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="quickfix_run.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="720">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="quickfix_run.rb" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="0" selection-start="963" selection-end="963" vertical-scroll-proportion="0.5862069" vertical-offset="430" max-vertical-offset="720">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="quickfix_run.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickfixBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="69" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1110">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickfixOut.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="31" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.5481928" vertical-offset="553" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickfixIn.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="46" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/qftest/FixHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="43" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0" vertical-offset="803" max-vertical-offset="1110">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixMessageHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/qftest/FixMessageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="19" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -144,9 +163,13 @@
         <option value="$PROJECT_DIR$/src/qftest/QuickfixBase.java" />
         <option value="$PROJECT_DIR$/fix.out.config" />
         <option value="$PROJECT_DIR$/src/qftest/QuickfixOut.java" />
-        <option value="$PROJECT_DIR$/java/qftest/FixHandler.java" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/ruby/quickfix_run.rb" />
+        <option value="$PROJECT_DIR$/java/qftest/FixMessageHandler.java" />
+        <option value="$PROJECT_DIR$/java/qftest/QuickfixBase.java" />
+        <option value="$PROJECT_DIR$/java/qftest/FixHandler.java" />
+        <option value="$PROJECT_DIR$/java/qftest/QuickfixIn.java" />
+        <option value="$PROJECT_DIR$/java/qftest/QuickfixOut.java" />
       </list>
     </option>
   </component>
@@ -181,12 +204,117 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="aa-quickfixj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa-quickfixj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -247,7 +375,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -332,6 +459,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -357,19 +497,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -514,12 +641,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12160121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44615385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44615385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -546,32 +673,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/field/Side.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="11" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fix.out.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/fix44/NewOrderSingle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="15" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="100125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/SessionSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="13" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="11910">
@@ -623,16 +724,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fix.out.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="9" column="8" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/fix44/NewOrderSingle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="15" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="100125">
-          <folding />
-        </state>
+        <state line="106" column="15" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="100125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/SessionSettings.java">
@@ -658,9 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
@@ -731,11 +826,6 @@
         <state line="116" column="6" selection-start="4178" selection-end="4178" vertical-scroll-proportion="0.0" vertical-offset="1076" max-vertical-offset="16335" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fix.in.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/SessionID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="13" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.29220778" vertical-offset="45" max-vertical-offset="2670" />
@@ -763,13 +853,6 @@
         <state line="13" column="63" selection-start="649" selection-end="649" vertical-scroll-proportion="0.31350482" vertical-offset="0" max-vertical-offset="622" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.07512521" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/Session.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="584" column="0" selection-start="24624" selection-end="24624" vertical-scroll-proportion="0.0" vertical-offset="7649" max-vertical-offset="40260">
@@ -791,9 +874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/fix44/NewOrderSingle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="15" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1523" max-vertical-offset="100110">
-          <folding />
-        </state>
+        <state line="106" column="15" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1523" max-vertical-offset="100110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/FieldMap.java">
@@ -810,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/qftest/QuickFixInOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="5" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="330">
@@ -826,9 +900,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fix.out.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="118" selection-end="118" vertical-scroll-proportion="0.09638554" vertical-offset="103" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="9" column="8" selection-start="118" selection-end="118" vertical-scroll-proportion="0.09638554" vertical-offset="103" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../libs/quickfixj/src/quickfix/field/Side.java">
@@ -843,33 +915,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/qftest/FixHandler.java">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="61" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.7554859" vertical-offset="569" max-vertical-offset="960">
+        <state line="5" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="568" column="6" selection-start="24799" selection-end="24799" vertical-scroll-proportion="0.43243244" vertical-offset="8002" max-vertical-offset="10500" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="17" selection-start="2831" selection-end="2831" vertical-scroll-proportion="-0.10135135" vertical-offset="960" max-vertical-offset="2130" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="17" selection-start="3266" selection-end="3266" vertical-scroll-proportion="0.5945946" vertical-offset="1234" max-vertical-offset="1710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/qftest/FixMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="510">
+        <state line="45" column="69" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/qftest/FixHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="43" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0" vertical-offset="803" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix.in.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby/quickfix_run.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="720">
+        <state line="22" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="46" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/qftest/QuickfixOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="59" selection-start="1307" selection-end="1319" vertical-scroll-proportion="-0.06418919" vertical-offset="469" max-vertical-offset="765">
+        <state line="53" column="31" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.5481928" vertical-offset="553" max-vertical-offset="885">
           <folding />
         </state>
       </provider>

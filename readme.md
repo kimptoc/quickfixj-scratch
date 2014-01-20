@@ -8,12 +8,15 @@ Only using FIX 4.4
 TODO
 ----
 
-Accepting message / Ruby
+Fix buffer/proxy
+Fix testing
 
 Logging via third party (mkv - what does ION do?)
 
 DONE
 ----
+
+Accepting message / Ruby
 
 Sending message / Ruby
 

@@ -14,7 +14,13 @@ end
 
 puts "Starting Acceptor: #{ARGV[0]}"
 
-qf = QuickfixBase.new.invoke(ARGV[0])
+class MsgHandler
+	def process(msg)
+		puts "Ruby/MsgHandler - got a message:#{msg}"
+	end
+end
+
+qf = QuickfixBase.new.invoke(ARGV[0], MsgHandler.new)
 
 acc = SocketAcceptor.new qf.application, qf.store_factory, qf.settings, qf.log_factory, qf.message_factory
 
@@ -23,7 +29,7 @@ acc.start
 
 puts "Starting Initiator: #{ARGV[1]}"
 
-qf = QuickfixBase.new.invoke(ARGV[1])
+qf = QuickfixBase.new.invoke(ARGV[1], nil)
 
 ini = SocketInitiator.new qf.application, qf.store_factory, qf.settings, qf.log_factory, qf.message_factory
 

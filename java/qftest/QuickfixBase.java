@@ -43,9 +43,9 @@ public class QuickfixBase {
 
     public SessionID getSessionId() { return sessionId; }
 
-    public QuickfixBase invoke(String fileName) throws IOException {
+    public QuickfixBase invoke(String fileName, FixMessageHandler fmh) throws IOException {
 
-        application = new FixHandler();
+        application = new FixHandler(fmh);
 
         props = new Properties();
         props.load(new FileInputStream(fileName));

@@ -5,10 +5,19 @@ import quickfix.Message;
 import quickfix.field.ClOrdID;
 import quickfix.fix44.*;
 
+import java.util.concurrent.Executor;
+
 /**
  * Created by kimptoc on 15/01/2014.
  */
 public class FixHandler extends quickfix.fix44.MessageCracker implements Application {
+
+    private final FixMessageHandler fixMessageHandler;
+
+    public FixHandler(FixMessageHandler fmh)
+    {
+        fixMessageHandler = fmh;
+    }
 
     @Override
     public void onCreate(SessionID sessionID) {
@@ -46,8 +55,11 @@ public class FixHandler extends quickfix.fix44.MessageCracker implements Applica
     @Override
     public void fromApp(Message message, SessionID sessionID) throws FieldNotFound, IncorrectDataFormat, IncorrectTagValue, UnsupportedMessageType {
         Log.debug("fromApp:"+sessionID);
-        Log.debug(message);
-        crack(message, sessionID);
+//        Log.debug(message);
+        if (fixMessageHandler != null)
+            fixMessageHandler.process(message);
+//        crack(message, sessionID);
+
     }
 
     public void onMessage( quickfix.fix44.NewOrderSingle message, SessionID sessionID )

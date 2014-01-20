@@ -9,12 +9,15 @@ import java.util.Date;
 /**
  * Created by kimptoc on 15/01/2014.
  */
-public class QuickfixOut {
+public class QuickfixOut implements FixMessageHandler {
     public static void main(String[] args) throws ConfigError, IOException {
         System.out.println("Starting Initiator!");
 
         if(args.length != 1) return;
-        QuickfixBase qf = new QuickfixBase().invoke(args[0]);
+
+        QuickfixOut msgHandler = new QuickfixOut();
+
+        QuickfixBase qf = new QuickfixBase().invoke(args[0], msgHandler);
         Initiator initiator = new SocketInitiator
                 (qf.getApplication(), qf.getStoreFactory(), qf.getSettings(),
                         qf.getLogFactory(), qf.getMessageFactory());
@@ -46,4 +49,9 @@ public class QuickfixOut {
         }
     }
 
+    @Override
+    public boolean process(Message m) {
+        Log.debug("QuickFixOut Got a message:"+m);
+        return false;
+    }
 }
